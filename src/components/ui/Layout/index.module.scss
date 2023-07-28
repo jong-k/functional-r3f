@@ -1,0 +1,15 @@
+@use "../../../styles/variables" as v;
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: v.$maxWidth;
+}

@@ -1,10 +1,18 @@
-import "./App.css";
-import TwoBoxes from "./samples/TwoBoxes";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Layout from "./components/ui/Layout";
+import Home from "./pages/Home";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+]);
 
 export default function App() {
   return (
-    <div id="canvas-container">
-      <TwoBoxes />
-    </div>
+    <Layout>
+      <RouterProvider router={router} />
+    </Layout>
   );
 }

@@ -1,5 +1,5 @@
 import { Canvas } from "@react-three/fiber";
-import Box from "../../components/Box";
+import Box from "../../components/canvas/Box";
 
 export default function TwoBoxes() {
   return (
