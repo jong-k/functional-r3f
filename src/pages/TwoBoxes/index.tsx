@@ -8,7 +8,7 @@ export default function TwoBoxes() {
     <div className={s.canvasContaier}>
       <Canvas>
         <ambientLight intensity={0.5} />
-        <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+        <spotLight position={[10, 5, 10]} angle={0.15} penumbra={1} />
         <pointLight position={[-10, -10, -10]} />
         <Box position={[-3, 0, 0]} />
         <Box position={[3, 0, 0]} />
