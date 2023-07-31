@@ -18,12 +18,12 @@ export default function Box({ position }: BoxProps) {
     <mesh
       position={position}
       ref={meshRef}
-      scale={isClicked ? 1.75 : 1}
+      scale={isClicked ? 1.5 : 1}
       onClick={() => setIsClicked(!isClicked)}
       onPointerOver={() => setIsHovered(true)}
       onPointerOut={() => setIsHovered(false)}
     >
-      <boxGeometry args={[3, 3, 3]} />
+      <boxGeometry args={[1, 1, 1]} />
       <meshStandardMaterial color={isHovered ? "#1b5abf" : "#ffffff"} />
     </mesh>
   );
