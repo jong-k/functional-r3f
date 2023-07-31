@@ -24,7 +24,7 @@ export default function Box({ position }: BoxProps) {
       onPointerOut={() => setIsHovered(false)}
     >
       <boxGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color={isHovered ? "#1b5abf" : "#ffffff"} />
+      <meshStandardMaterial color={isHovered ? "#1b5abf" : "#45bc87"} />
     </mesh>
   );
 }
