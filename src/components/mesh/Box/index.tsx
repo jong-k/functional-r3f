@@ -12,7 +12,7 @@ export default function Box({ position }: BoxProps) {
   const [isHovered, setIsHovered] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
   // 컴포넌트가 render loop를 참조하게 하고 매 프레임마다 mesh를 회전시킴
-  useFrame((state, delta) => (meshRef.current.rotation.x += delta));
+  useFrame((_state, delta) => (meshRef.current.rotation.x += delta));
 
   return (
     <mesh
