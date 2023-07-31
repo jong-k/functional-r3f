@@ -1,0 +1,17 @@
+@use "variables" as v;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: v.$backgroundColor;
+  color: v.$basicFontsColor;
+  font-family: v.$basicFonts;
+}
+
+h1,
+h2,
+h3 {
+  font-family: v.$HeadingFonts;
+}

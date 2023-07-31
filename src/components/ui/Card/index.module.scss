@@ -2,8 +2,11 @@
   width: 400px;
   height: 300px;
   background: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.title-header {
+.titleHeader {
   color: green;
 }

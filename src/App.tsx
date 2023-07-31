@@ -1,18 +1,22 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Layout from "./components/ui/Layout";
 import Home from "./pages/Home";
+import TwoBoxes from "./pages/TwoBoxes";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
   },
+  {
+    path: "/twoboxes",
+    element: <TwoBoxes />,
+  },
 ]);
 
 export default function App() {
   return (
-    <Layout>
+    <>
       <RouterProvider router={router} />
-    </Layout>
+    </>
   );
 }
