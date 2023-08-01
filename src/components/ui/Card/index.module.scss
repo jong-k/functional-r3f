@@ -1,6 +1,6 @@
 .wrapper {
-  width: 400px;
-  height: 300px;
+  width: 350px;
+  height: 250px;
   background: aqua;
   display: flex;
   align-items: center;
@@ -8,5 +8,6 @@
 }
 
 .titleHeader {
+  font-size: 1.75rem;
   color: green;
 }

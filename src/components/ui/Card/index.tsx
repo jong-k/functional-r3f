@@ -1,13 +1,17 @@
+import { Link } from "react-router-dom";
 import s from "./index.module.scss";
 
 interface CardProps {
   title: string;
+  linkTo: string;
 }
 
-export default function Card({ title }: CardProps) {
+export default function Card({ title, linkTo }: CardProps) {
   return (
-    <div className={s.wrapper}>
-      <h2 className={s.titleHeader}>{title}</h2>
-    </div>
+    <Link to={linkTo}>
+      <div className={s.wrapper}>
+        <h3 className={s.titleHeader}>{title}</h3>
+      </div>
+    </Link>
   );
 }
