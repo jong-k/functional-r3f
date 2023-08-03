@@ -5,7 +5,7 @@ import "./styles/index.scss";
 import Home from "./pages/Home";
 import TwoBoxes from "./pages/TwoBoxes";
 import RenderTexture from "./pages/RenderTexture";
-import Cerberus from "./pages/Cerberus";
+import CerberusObjTexture from "./pages/CerberusObjTexture";
 
 const router = createBrowserRouter([
   {
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/cerberus",
-    element: <Cerberus />,
+    element: <CerberusObjTexture />,
   },
 ]);
 
