@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./styles/index.scss";
 import Home from "./pages/Home";
 import TwoBoxes from "./pages/TwoBoxes";
+import RenderTexture from "./pages/RenderTexture";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/twoboxes",
     element: <TwoBoxes />,
+  },
+  {
+    path: "/rendertexture",
+    element: <RenderTexture />,
   },
 ]);
 

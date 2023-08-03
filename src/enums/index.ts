@@ -12,8 +12,8 @@ export const BOARD_LIST: BoardType[] = [
   },
   {
     ID: 2,
-    TITLE: "준비중",
-    LINK: "/",
+    TITLE: "Render Texture",
+    LINK: "/rendertexture",
   },
   {
     ID: 3,
