@@ -22,8 +22,8 @@ export const BOARD_LIST: BoardType[] = [
   },
   {
     ID: 4,
-    TITLE: "준비중",
-    LINK: "/",
+    TITLE: "ninja.obj",
+    LINK: "/ninja",
   },
   {
     ID: 5,

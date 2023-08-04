@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import TwoBoxes from "./pages/TwoBoxes";
 import RenderTexture from "./pages/RenderTexture";
 import CerberusObjTexture from "./pages/CerberusObjTexture";
+import NinjaObjTexture from "./pages/NinjaObjTexture";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/cerberus",
     element: <CerberusObjTexture />,
+  },
+  {
+    path: "/ninja",
+    element: <NinjaObjTexture />,
   },
 ]);
 
