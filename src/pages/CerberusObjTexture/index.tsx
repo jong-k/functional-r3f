@@ -8,7 +8,7 @@ export default function CerberusObjTexture() {
     <Canvas>
       <ambientLight intensity={0.5} />
       <directionalLight position={[5, 5, 5]} />
-      <Suspense fallback={null}>
+      <Suspense fallback={<h2>Loading...</h2>}>
         <Cerberus />
       </Suspense>
       <OrbitControls />
